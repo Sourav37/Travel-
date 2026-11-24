@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next Journey — Explore Dream Discover | Tours & Travels</title>
+  <meta name="description"
+    content="Discover Incredible Journeys with Next Journey. Customized holiday packages, luxury stays, and memorable lifetime travel experiences.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Oswald:wght@500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Flaticon UIcons (Regular Rounded & Brands) -->
+  <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================== HERO SECTION (Wanderland Adventure Style) ==================== -->
+  <section class="hero-adventure-section" id="hero">
+    <!-- Background Slideshow / Explorer Photo -->
+    <div class="hero-media-wrapper">
+      <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=1920&q=85"
+        alt="Explorer with backpack deep in wild mountain greenery" class="hero-media-bg active-slide" id="hero-img-1">
+      <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1920&q=85"
+        alt="Kashmir valley serene houseboat" class="hero-media-bg" id="hero-img-2">
+      <div class="hero-media-dark-overlay"></div>
+    </div>
+
+    <!-- Top Utility Bar inside Transparent Hero Header -->
+    <div class="hero-top-strip">
+      <div class="container hero-top-container">
+        <div class="hero-top-left">
+          <a href="tel:+919876543210" class="top-link">
+            <i class="fi fi-rr-phone-call h-icon"></i>
+            +91 98765 43210
+          </a>
+          <a href="mailto:wander@nextjourney.in" class="top-link">
+            <i class="fi fi-rr-envelope h-icon"></i>
+            wander@nextjourney.in
+          </a>
+        </div>
+        <div class="hero-top-right">
+          <span class="socials-label">Socials</span>
+          <div class="hero-social-icons">
+            <a href="#" aria-label="Instagram"><i class="fi fi-brands-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fi fi-brands-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fi fi-brands-facebook"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fi fi-brands-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transparent Main Nav with Centered Brand Badge & Torn 'HOME' Marker -->
+    <header class="hero-main-nav">
+      <div class="container hero-nav-container">
+        <!-- Left Nav Cluster (Home, About Us, Packages, Destinations) -->
+        <div class="nav-cluster nav-left">
+          <ul class="nav-links-sub">
+            <!-- 1. Home -->
+            <li>
+              <a href="#hero" class="nav-link-btn torn-tag-active">Home</a>
+            </li>
+
+            <!-- 2. About Us -->
+            <li>
+              <a href="#about" class="nav-link-btn">About Us</a>
+            </li>
+
+            <!-- 3. Packages (with Dropdown) -->
+            <li class="nav-dropdown-wrapper">
+              <a href="#packages" class="nav-link-btn dropdown-toggle">
+                <span>Packages</span>
+                <i class="fi fi-rr-angle-small-down nav-dropdown-arrow"></i>
+              </a>
+              <div class="stylish-dropdown-menu">
+                <div class="dropdown-arrow-indicator"></div>
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="#packages" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-compass"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Classic Kashmir Tour</span>
+                        <span class="item-desc">5 Nights / 6 Days &bull; From ₹24,999</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#packages" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-gem"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Luxury Kashmir Getaway</span>
+                        <span class="item-desc">4 Nights / 5 Days &bull; From ₹32,999</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#packages" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-flower"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Kashmir Tulip Festival</span>
+                        <span class="item-desc">6 Nights / 7 Days &bull; From ₹36,999</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#packages" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-backpack"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">All Holiday Packages</span>
+                        <span class="item-desc">Explore all bespoke itineraries</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- 4. Destinations (with Dropdown) -->
+            <li class="nav-dropdown-wrapper">
+              <a href="#destinations" class="nav-link-btn dropdown-toggle">
+                <span>Destinations</span>
+                <i class="fi fi-rr-angle-small-down nav-dropdown-arrow"></i>
+              </a>
+              <div class="stylish-dropdown-menu">
+                <div class="dropdown-arrow-indicator"></div>
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="#destinations" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-mountains"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Gulmarg</span>
+                        <span class="item-desc">Snow, Ski &amp; Serenity</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#destinations" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-water"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Srinagar</span>
+                        <span class="item-desc">Lakes, Gardens &amp; Charm</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#destinations" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-tree"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Pahalgam</span>
+                        <span class="item-desc">Nature at Its Best</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#destinations" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-sun"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Sonamarg</span>
+                        <span class="item-desc">Meadows &amp; Majestic Views</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Center Brand Badge: Circular Compass Seal + Script Typography -->
+        <div class="nav-center-brand">
+          <a href="#hero" class="brand-crest">
+            <div class="crest-title">Next<span>Journey</span></div>
+          </a>
+        </div>
+
+        <!-- Right Nav Cluster (Plan Your Trip, Contact Us, Travel Blog, Policies) -->
+        <div class="nav-cluster nav-right">
+          <ul class="nav-links-sub">
+            <!-- 5. Plan Your Trip -->
+            <li><a href="#plan-trip" class="nav-link-btn">Plan Your Trip</a></li>
+
+            <!-- 6. Contact Us -->
+            <li><a href="#footer-contact" class="nav-link-btn">Contact Us</a></li>
+
+            <!-- 7. Travel Blog -->
+            <li><a href="#inspiration" class="nav-link-btn">Travel Blog</a></li>
+
+            <!-- 8. Policies (with Modal / Drawer Trigger) -->
+            <li class="nav-dropdown-wrapper">
+              <a href="#footer-contact" class="nav-link-btn dropdown-toggle">
+                <span>Policies</span>
+                <i class="fi fi-rr-angle-small-down nav-dropdown-arrow"></i>
+              </a>
+              <div class="stylish-dropdown-menu dropdown-align-right">
+                <div class="dropdown-arrow-indicator"></div>
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="#footer-contact" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-shield-check"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Privacy Policy</span>
+                        <span class="item-desc">Data protection & security</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#footer-contact" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-document-signed"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Terms &amp; Conditions</span>
+                        <span class="item-desc">Booking guidelines & agreements</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#footer-contact" class="dropdown-item">
+                      <span class="dropdown-icon"><i class="fi fi-rr-cross-circle"></i></span>
+                      <div class="dropdown-text">
+                        <span class="item-title">Cancellation Policy</span>
+                        <span class="item-desc">Refund rules & reschedule terms</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#packages" class="search-trigger-link" title="Search destinations">
+            <i class="fi fi-rr-search"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Torn/Brush Arrow Sliders (Left / Right from reference) -->
+    <button class="brush-slider-arrow arrow-prev" id="hero-prev-btn" aria-label="Previous slide">
+      <span class="brush-patch"></span>
+      <i class="fi fi-rr-arrow-left"></i>
+    </button>
+    <button class="brush-slider-arrow arrow-next" id="hero-next-btn" aria-label="Next slide">
+      <span class="brush-patch"></span>
+      <i class="fi fi-rr-arrow-right"></i>
+    </button>
+
+    <!-- Center Editorial Content -->
+    <div class="container hero-editorial-center">
+      <div class="hero-editorial-wrap reveal-on-scroll">
+        <!-- Date & Author Meta Info -->
+        <div class="editorial-meta-row">
+          <span class="meta-item">
+            <i class="fi fi-rr-calendar"></i>
+            October 11, 2026
+          </span>
+          <span class="meta-item author">
+            <i class="fi fi-rr-pen-clip"></i>
+            <em>by Next Journey Expeditions</em>
+          </span>
+        </div>
+
+        <!-- Heavy Compressed Title in ALL CAPS Oswald/Bebas style -->
+        <h1 class="hero-compressed-title" id="hero-headline-text">
+          AMAZON RAINFOREST &amp; HIMALAYAN EXPEDITIONS
+        </h1>
+
+        <!-- Editorial Excerpt Description -->
+        <p class="hero-compressed-desc" id="hero-desc-text">
+          Traverse untouched wilderness, high-altitude alpine ridges, and mystical ancient trails with handcrafted
+          itineraries built for genuine explorers.
+        </p>
+
+        <!-- Deep Green / Blue Read More CTA Button with Angled Arrow -->
+        <div class="hero-btn-row">
+          <a href="#packages" class="btn btn-hero-readmore">
+            <span>READ MORE</span>
+            <i class="fi fi-rr-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Torn / Distressed Paper Brush Edge at the Bottom (Wanderland Official Mask) -->
+    <div class="torn-paper-brush-bottom" aria-hidden="true">
+      <div class="torn-mask-overlay"></div>
+    </div>
+  </section>
+
+  <!-- ==================== TRUST HIGHLIGHTS BAR ==================== -->
+  <div class="trust-strip-container">
+    <div class="container">
+      <div class="hero-trust-bar reveal-on-scroll">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <i class="fi fi-rr-shield-check"></i>
+          </div>
+          <span>Trusted Travel Partner</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <i class="fi fi-rr-users"></i>
+          </div>
+          <span>Customised Packages</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <i class="fi fi-rr-headset"></i>
+          </div>
+          <span>24&times;7 Dedicated Support</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <i class="fi fi-rr-star"></i>
+          </div>
+          <span>Unforgettable Experiences</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== POPULAR DESTINATIONS ==================== -->
+    <section class="section section-destinations" id="destinations">
+      <div class="container">
+        <!-- Center-lined Section Header -->
+        <div class="center-line-heading reveal-on-scroll">
+          <div class="line"></div>
+          <h2 class="title">Popular Destinations</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="destinations-carousel-wrap">
+          <div class="destinations-row">
+            <!-- 1. Gulmarg -->
+            <div class="dest-card-box reveal-on-scroll">
+              <div class="dest-card-img">
+                <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=700&q=80"
+                  alt="Gulmarg snow peaks and cable car gondola">
+                <div class="dest-card-overlay"></div>
+              </div>
+              <div class="dest-card-details">
+                <h3 class="dest-title">Gulmarg</h3>
+                <p class="dest-subtitle">Snow, Ski &amp; Serenity</p>
+              </div>
+            </div>
+
+            <!-- 2. Srinagar -->
+            <div class="dest-card-box reveal-on-scroll">
+              <div class="dest-card-img">
+                <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=700&q=80"
+                  alt="Srinagar Dal Lake cedar wooden houseboats">
+                <div class="dest-card-overlay"></div>
+              </div>
+              <div class="dest-card-details">
+                <h3 class="dest-title">Srinagar</h3>
+                <p class="dest-subtitle">Lakes, Gardens &amp; Charm</p>
+              </div>
+            </div>
+
+            <!-- 3. Pahalgam -->
+            <div class="dest-card-box reveal-on-scroll">
+              <div class="dest-card-img">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80"
+                  alt="Pahalgam pristine river flowing through pine valley">
+                <div class="dest-card-overlay"></div>
+              </div>
+              <div class="dest-card-details">
+                <h3 class="dest-title">Pahalgam</h3>
+                <p class="dest-subtitle">Nature at Its Best</p>
+              </div>
+            </div>
+
+            <!-- 4. Sonamarg -->
+            <div class="dest-card-box reveal-on-scroll">
+              <div class="dest-card-img">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80"
+                  alt="Sonamarg golden meadows and dramatic alpine peaks">
+                <div class="dest-card-overlay"></div>
+              </div>
+              <div class="dest-card-details">
+                <h3 class="dest-title">Sonamarg</h3>
+                <p class="dest-subtitle">Meadows &amp; Majestic Views</p>
+              </div>
+            </div>
+          </div>
+          <!-- Arrow Indicator -->
+          <button class="dest-next-btn" aria-label="Next destinations"><i
+              class="fi fi-rr-angle-small-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT NEXT JOURNEY SECTION ==================== -->
+    <section class="section section-about" id="about">
+      <div class="container about-container">
+        <!-- Left Column: Story & Checklist -->
+        <div class="about-left-col reveal-on-scroll">
+          <h2 class="about-brand-heading">About Next Journey Tours &amp; Travels</h2>
+          <p class="about-intro">
+            At <strong>Next Journey Tours &amp; Travels</strong>, we believe travel is more than a journey &mdash;
+            it&rsquo;s a collection of lifelong memories. We design personalised travel experiences across India and
+            global wonders, with deep focus on breathtaking mountain valleys, royal heritage, and coastal sanctuaries.
+          </p>
+
+          <div class="about-features-grid">
+            <div class="feature-item">
+              <span class="check-icon"><i class="fi fi-rr-check"></i></span>
+              <span>Curated Travel Packages</span>
+            </div>
+            <div class="feature-item">
+              <span class="check-icon"><i class="fi fi-rr-check"></i></span>
+              <span>Safe &amp; Comfortable Travel</span>
+            </div>
+            <div class="feature-item">
+              <span class="check-icon"><i class="fi fi-rr-check"></i></span>
+              <span>Local Expert Concierge</span>
+            </div>
+            <div class="feature-item">
+              <span class="check-icon"><i class="fi fi-rr-check"></i></span>
+              <span>Dedicated 24/7 Support</span>
+            </div>
+          </div>
+
+          <div class="about-action">
+            <a href="#packages" class="btn btn-hero-readmore">
+              <span>Know More About Us</span>
+              <i class="fi fi-rr-arrow-right icon-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Cascading Polaroid Gallery with Handwritten Script -->
+        <div class="about-right-col reveal-on-scroll">
+          <!-- Background Flight Path SVG with Animated Aeroplane -->
+          <div class="flight-route-backdrop" aria-hidden="true">
+            <svg class="flight-path-svg" viewBox="0 0 644 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="flightRouteDotted"
+                d="M15 86.4942C36.4896 75.0346 83.6613 60.3919 148.194 108.777C204.867 151.27 255.979 148.504 331.944 115.144C426.901 73.4431 395.143 5.63973 360.844 4.04808C326.546 2.45645 292.247 40.3372 339.884 124.375C377.994 191.605 486.839 142.891 532.337 108.777C574.321 77.2981 628.434 28.3473 631 25.2718"
+                stroke="red" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 8" opacity="0.65" />
+              <path
+                d="M15.6999 80.0259C15.2809 80.3247 14.7191 80.3247 14.3001 80.0259C8.26422 75.7216 1.85697 66.8714 8.33338 60.4766C10.1015 58.7308 12.4995 57.75 15 57.75C17.5005 57.75 19.8985 58.7308 21.6666 60.4766C28.143 66.8714 21.7358 75.7216 15.6999 80.0259Z"
+                stroke="#E63946" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="15" cy="66.5" r="2.5" fill="#E63946" />
+              <path
+                d="M633.513 19.0857C633.206 19.3048 632.794 19.3048 632.487 19.0857C628.06 15.9292 623.362 9.43901 628.111 4.74951C629.408 3.46924 631.166 2.75 633 2.75C634.834 2.75 636.592 3.46924 637.889 4.74951C642.638 9.43901 637.94 15.9292 633.513 19.0857Z"
+                stroke="#E63946" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="633" cy="9.16" r="2.5" fill="#E63946" />
+            </svg>
+            <!-- Infinite Loop Flying Aeroplane -->
+            <div class="flying-aeroplane-motion">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="var(--color-primary-blue)">
+                <path
+                  d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Composition Showcase matching reference exactly -->
+          <div class="travel-showcase-box">
+            <!-- Floating Decorative Icon Badges -->
+            <div class="floating-badge badge-palm" title="Tropical">
+              <i class="fi fi-rr-palmtree"></i>
+            </div>
+            <div class="floating-badge badge-bag" title="Luggage">
+              <i class="fi fi-rr-briefcase"></i>
+            </div>
+            <div class="floating-badge badge-camera" title="Photography">
+              <i class="fi fi-rr-camera"></i>
+            </div>
+            <div class="floating-badge badge-ticket" title="Tickets">
+              <i class="fi fi-rr-ticket"></i>
+            </div>
+
+            <!-- Card 1: Left Vertical Tropical Beach Card (tilted counter-clockwise) -->
+            <div class="showcase-card card-beach">
+              <div class="showcase-card-inner">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=85"
+                  alt="Sunny tropical beach with palm tree and umbrella">
+              </div>
+            </div>
+
+            <!-- Card 2: Top Right Mountain Summit Hikers Card (tilted clockwise) -->
+            <div class="showcase-card card-mountains">
+              <div class="showcase-card-inner">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85"
+                  alt="Hikers celebrating on snowy mountain summit">
+              </div>
+            </div>
+
+            <!-- Card 3: Bottom Center Taj Mahal Monument Card (flat horizontal) -->
+            <div class="showcase-card card-taj">
+              <div class="showcase-card-inner">
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=85"
+                  alt="Taj Mahal in Agra under clear skies">
+              </div>
+            </div>
+
+            <!-- Floating Pill Tag: Adventure + Affordability -->
+            <div class="floating-pill-tag">
+              <i class="fi fi-rr-plane-departure pill-icon"></i>
+              <span class="pill-text">Adventure + Affordability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OUR FEATURED PACKAGES ==================== -->
+    <section class="section section-packages" id="packages">
+      <div class="container">
+        <!-- Center-line Heading -->
+        <div class="center-line-heading reveal-on-scroll">
+          <div class="line"></div>
+          <h2 class="title">Our Popular Packages</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="packages-layout-grid">
+          <!-- Package 1: Classic Kashmir Tour -->
+          <div class="pkg-card reveal-on-scroll">
+            <div class="pkg-img-wrap">
+              <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80"
+                alt="Snow covered peaks Gulmarg">
+              <span class="pkg-duration-badge">5N / 6D</span>
+            </div>
+            <div class="pkg-body">
+              <h3 class="pkg-title">Classic Kashmir Tour</h3>
+              <p class="pkg-route">Srinagar &ndash; Gulmarg &ndash; Pahalgam</p>
+              <div class="pkg-pricing">
+                From <span class="price-val">&#8377;24,999</span> <span class="per-person">per person</span>
+              </div>
+              <div class="pkg-action-row">
+                <a href="#plan-trip" class="pkg-link">
+                  <span>View Details</span>
+                  <i class="fi fi-rr-arrow-right icon-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Package 2: Luxury Getaway -->
+          <div class="pkg-card reveal-on-scroll">
+            <div class="pkg-img-wrap">
+              <img src="https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=600&q=80"
+                alt="Luxury Dal Lake Houseboat stay">
+              <span class="pkg-duration-badge">4N / 5D</span>
+            </div>
+            <div class="pkg-body">
+              <h3 class="pkg-title">Luxury Kashmir Getaway</h3>
+              <p class="pkg-route">Srinagar &ndash; Dal Lake &ndash; Sonamarg</p>
+              <div class="pkg-pricing">
+                From <span class="price-val">&#8377;32,999</span> <span class="per-person">per person</span>
+              </div>
+              <div class="pkg-action-row">
+                <a href="#plan-trip" class="pkg-link">
+                  <span>View Details</span>
+                  <i class="fi fi-rr-arrow-right icon-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Package 3: Tulip Festival & Valleys -->
+          <div class="pkg-card reveal-on-scroll">
+            <div class="pkg-img-wrap">
+              <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=600&q=80"
+                alt="Vibrant tulip garden with mountain backdrop">
+              <span class="pkg-duration-badge">6N / 7D</span>
+            </div>
+            <div class="pkg-body">
+              <h3 class="pkg-title">Kashmir with Tulip Festival</h3>
+              <p class="pkg-route">Srinagar &ndash; Gulmarg &ndash; Pahalgam</p>
+              <div class="pkg-pricing">
+                From <span class="price-val">&#8377;36,999</span> <span class="per-person">per person</span>
+              </div>
+              <div class="pkg-action-row">
+                <a href="#plan-trip" class="pkg-link">
+                  <span>View Details</span>
+                  <i class="fi fi-rr-arrow-right icon-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan Your Trip Card -->
+          <div class="plan-trip-card reveal-on-scroll" id="plan-trip">
+            <div class="plan-trip-inner">
+              <div class="plan-mountain-logo">
+                <svg viewBox="0 0 100 48" width="56" height="28" fill="none">
+                  <path d="M4 38L22 14L34 26L48 8L64 38H4Z" stroke="var(--color-primary-blue)" stroke-width="3.5"
+                    stroke-linejoin="round" />
+                  <path d="M28 22L44 6L58 28" stroke="var(--color-violet)" stroke-width="2.5" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h3 class="plan-card-title">Plan Your Trip</h3>
+              <p class="plan-card-desc">
+                Tell us your travel preferences and we&rsquo;ll craft the perfect itinerary for you.
+              </p>
+              <a href="tel:+919876543210" class="btn btn-enquiry btn-hero-readmore">
+                <span>Enquiry Now</span>
+                <i class="fi fi-rr-arrow-right icon-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BANNER STRIP & FOOTER UNIFIED ==================== -->
+  </main>
+
+  <!-- Unified Footer & Contact Area with continuous background -->
+  <footer class="site-footer-wrapper" id="footer-contact">
+    <!-- Torn / Distressed Paper Brush Edge at the Top of Footer -->
+    <div class="torn-paper-brush-top" aria-hidden="true">
+      <div class="torn-mask-overlay-top"></div>
+    </div>
+
+    <div class="footer-bg-media">
+      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80"
+        alt="Scenic mountain valley background">
+      <div class="footer-bg-gradient"></div>
+    </div>
+
+    <!-- Contact CTA Strip -->
+    <section class="banner-cta-strip">
+      <div class="container banner-inner reveal-on-scroll">
+        <h2 class="banner-script-heading">
+          Let&rsquo;s Explore Incredible India Together
+        </h2>
+        <a href="#footer-nav" class="btn btn-contact-yellow btn-hero-readmore">
+          <span>Contact Us</span>
+          <i class="fi fi-rr-arrow-right icon-arrow"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Site Footer Main Content -->
+    <div class="site-footer" id="footer-nav">
+      <div class="container footer-content-wrap">
+        <!-- Footer Top Row -->
+        <div class="footer-row-main">
+          <!-- Logo on Left -->
+          <div class="footer-logo-block">
+            <div class="logo-graphic">
+              <svg viewBox="0 0 100 48" class="logo-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 38L22 14L34 26L48 8L64 38H4Z" stroke="#FFFFFF" stroke-width="3.5" stroke-linejoin="round"
+                  stroke-linecap="round" />
+              <path d="M28 22L44 6L58 28" stroke="var(--color-light-blue)" stroke-width="2.5" stroke-linejoin="round"
+                opacity="0.9" />
+              <path d="M50 7L70 4L64 12" fill="var(--color-red)" />
+            </svg>
+          </div>
+          <div class="footer-logo-text">
+            <div class="logo-main">Next<span>Journey</span></div>
+            <div class="logo-sub">TOURS &amp; TRAVELS</div>
+          </div>
+        </div>
+
+        <!-- Links in Center -->
+        <nav class="footer-nav">
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li class="separator">|</li>
+            <li><a href="#about">About Us</a></li>
+            <li class="separator">|</li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li class="separator">|</li>
+            <li><a href="#packages">Packages</a></li>
+            <li class="separator">|</li>
+            <li><a href="#inspiration">Travel Blog</a></li>
+            <li class="separator">|</li>
+            <li><a href="#footer-contact">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Social Icons & WhatsApp Button on Right -->
+        <div class="footer-right-actions">
+          <div class="footer-social-icons">
+            <a href="#" class="social-round" aria-label="Facebook"><i class="fi fi-brands-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fi fi-brands-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fi fi-brands-youtube"></i></a>
+          </div>
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener"
+            class="btn btn-whatsapp btn-hero-readmore">
+            <i class="fi fi-brands-whatsapp"></i>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Copyright & Policy Links -->
+      <div class="footer-bottom-row">
+        <div class="copyright">
+          &copy; 2026 Next Journey &amp; Travels. All Rights Reserved.
+        </div>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <span class="sep">|</span>
+          <a href="#">Terms &amp; Conditions</a>
+          <span class="sep">|</span>
+          <a href="#">Cancellation Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
